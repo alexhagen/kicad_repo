@@ -1,4 +1,4 @@
-# kicad_repo
+# kidb
 
 a repository for complete circuits designed in KiCAD
 
