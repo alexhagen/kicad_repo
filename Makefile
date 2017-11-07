@@ -10,5 +10,5 @@ build:
 	cd ~/pages/kidb; \
 	git add *; \
 	git commit -am "$(shell git log -1 --pretty=%B | tr -d '\n')"; \
-	git push origin master; \
+	git push origin gh-pages; \
 	cd ~/code/kidb
