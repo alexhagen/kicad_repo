@@ -300,12 +300,6 @@ canvas {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
-  overflow-y: scroll;
-  max-height:100%;
-  &::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-  }
   h1,
   h2 {
     font-size: 30px;
@@ -341,7 +335,7 @@ canvas {
       margin-right: 5px;
       vertical-align: middle;
       position: relative;
-      color: $gray;
+      color: $dark-gray;
       a {
         display: inline-block;
         font-size: 1.3em;
@@ -368,6 +362,15 @@ canvas {
       display: none;
     }
   }
+  ul {
+    li {
+      a {
+        &:hover {
+          background-color: $gray;
+        }
+      }
+    }
+  }
 }
 
 .about-info {
@@ -391,7 +394,7 @@ canvas {
     }
   }
   p {
-    color: darken($white, 40);
+    color: $dark-gray;
     font-size: 16px;
     margin: 10px 0;
     padding-top: 0;
@@ -399,6 +402,18 @@ canvas {
     &:first-of-type {
       padding-top: 35px;
     }
+  }
+  ul {
+    margin-top: 5px;
+    padding-left: 2em;
+    li {
+      display: list-item;
+      list-style-type: disc;
+      list-style-position: inside;
+    }
+  }
+  & > ul {
+    margin-top: 35px;
   }
 }
 
@@ -669,6 +684,18 @@ canvas {
 @media screen and (max-height: 605px) {
   .post-title-section .section-title {
     font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .main-info,
+  .about-info {
+    overflow-y: scroll;
+    max-height:100%;
+    &::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    }
   }
 }
 
