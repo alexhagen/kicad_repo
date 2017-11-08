@@ -1,3 +1,3 @@
 ---
-layout: post-no-feature
+layout: home
 ---

@@ -1,7 +1,7 @@
 # Site
-title: KiDB
-description: Database for KiCAD Circuits
-url: https://alexhagen.github.io/kidb
+title: Halve
+description: Stylish, Two-Column Jekyll Theme
+url: https://taylantatli.github.io/Halve
 logo: halve.png                                       # Site logo
 locale: en_US
 
@@ -29,12 +29,12 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-email:             alexhagen6@gmail.com
+#email:             email
 #google.plus:        username
-#twitter:            username
+twitter:            username
 #facebook:           username
-github:             alexhagen
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+github:             username
+stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
@@ -52,7 +52,7 @@ github:             alexhagen
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-#behance:           username
+behance:           username
 
 # Gems
 gems:
