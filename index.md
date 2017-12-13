@@ -50,3 +50,10 @@ anything else!
   - Arduino .inos or something
 - Circuit import INTO existing circuit
   - I don't even know if KiCAD can do this
+
+## Coming Features and Implementation Details
+
+- Logo inspiration
+  - (https://dribbble.com/shots/2099202-Cuban-Tech-Flag)[https://dribbble.com/shots/2099202-Cuban-Tech-Flag]
+- Color Palette
+  - (http://www.colourlovers.com/palette/3147816/Tech)[http://www.colourlovers.com/palette/3147816/Tech]
